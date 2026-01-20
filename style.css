@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.section-1,
+.section-2 {
+  padding: 10px 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1 {
+  background-color: #1f2937;
+}
+
+.section-2 {
+  background-color: white;
+  color: black;
+  justify-content: center;
+}
+
+.header,
+.header-right,
+.list,
+.hero {
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.list {
+  gap: 16px;
+}
+
+.hero {
+  justify-content: space-between;
+}
+
+.hero-content {
+  flex: 0 1 550px;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  color: #d8d8d8;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border-radius: 12px;
+  border: darkblue;
+  border-width: 1px;
+  padding: 8px 40px;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.info-title h1 {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.info {
+  background-color: red;
+  display: flex;
+}
+
+.illu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.illu-frame {
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #d8d8d8;
+}
+
+.logo a {
+  color: white;
+}
